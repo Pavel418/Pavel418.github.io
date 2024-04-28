@@ -1,0 +1,484 @@
+{
+    "L0 S2": {
+        "Algebra": [
+            1.3,
+            0.7,
+            1.5
+        ],
+        "Analysis": [
+            1.3,
+            0.7,
+            1.5
+        ],
+        "Basic Chemistry 2": [
+            1.0,
+            2.0
+        ],
+        "Chemistry Lab": [
+            1.0,
+            2.0
+        ],
+        "Basic Physics 2": [
+            1.5,
+            2.0,
+            2.5
+        ],
+        "Computer Science 2": [
+            3.0,
+            3.0
+        ],
+        "Geosciences": [
+            0.3,
+            0.2,
+            0.5
+        ],
+        "Working Methodology": [
+            1.0
+        ],
+        "English or French": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    "CS 22": {
+        "Mathematics 2": [
+            2.0,
+            1.0,
+            3.0
+        ],
+        "Oscillators, Waves, Optics": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "Physics Lab 1": [
+            1.0,
+            2.0
+        ],
+        "Computer Architecture": [
+            1.5,
+            1.5
+        ],
+        "Databases": [
+            1.2,
+            0.3,
+            1.5
+        ],
+        "OOP 2": [
+            1.5,
+            1.5
+        ],
+        "Cryptography": [
+            1.5,
+            1.5
+        ],
+        "Network Algorithms": [
+            1.5,
+            1.5
+        ],
+        "Language 2": [
+            0.75,
+            1.125,
+            1.125
+        ]
+    },
+    "CE 22": {
+        "Mathematics 2": [
+            2.0,
+            1.0,
+            3.0
+        ],
+        "Oscillators, Waves, Optics": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "Physics Lab 1": [
+            1.0,
+            2.0
+        ],
+        "Architecture of Matter 2": [
+            1.0,
+            2.0
+        ],
+        "Transformation of Matter 2": [
+            1.0,
+            2.0
+        ],
+        "Chemistry Lab 2": [
+            2.0,
+            1.0
+        ],
+        "Heat Transfer": [
+            2.0
+        ],
+        "Process Diagram": [
+            1.0,
+            1.0
+        ],
+        "Material Science": [
+            2.0
+        ],
+        "Language 2": [
+            0.75,
+            1.125,
+            1.125
+        ]
+    },
+    "PE 22": {
+        "Mathematics 2": [
+            2.0,
+            1.0,
+            3.0
+        ],
+        "Oscillators, Waves, Optics": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "Physics Lab 1": [
+            1.0,
+            2.0
+        ],
+        "Architecture of Matter 2": [
+            1.0,
+            2.0
+        ],
+        "Transformation of Matter 2": [
+            1.0,
+            2.0
+        ],
+        "Drilling Techniques": [
+            2.0
+        ],
+        "Plate Tectonics": [
+            2.33
+        ],
+        "Mineralogy": [
+            3.11
+        ],
+        "Petrology": [
+            1.56
+        ],
+        "Language 2": [
+            0.75,
+            1.125,
+            1.125
+        ]
+    },
+    "GE 22": {
+        "Mathematics 2": [
+            2.0,
+            1.0,
+            3.0
+        ],
+        "Oscillators, Waves, Optics": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "Physics Lab 1": [
+            1.0,
+            2.0
+        ],
+        "Architecture of Matter 2": [
+            1.0,
+            2.0
+        ],
+        "Transformation of Matter 2": [
+            1.0,
+            2.0
+        ],
+        "Gravimetry": [
+            2.25
+        ],
+        "Plate Tectonics": [
+            2.25
+        ],
+        "Mineralogy and Petrology": [
+            3.0
+        ],
+        "Recognising Minerals": [
+            1.5
+        ],
+        "Language 2": [
+            0.75,
+            1.125,
+            1.125
+        ]
+    },
+    "CS 21": {
+        "Mathematics 4": [
+            1.5,
+            1.0,
+            2.5
+        ],
+        "Electronics": [
+            2.5
+        ],
+        "Physics Lab 2": [
+            1.25,
+            1.25
+        ],
+        "DSA": [
+            1.5,
+            3.5
+        ],
+        "OOP 2": [
+            1.5,
+            1.5
+        ],
+        "Artificial Intelligence": [
+            1.5,
+            1.5
+        ],
+        "Soft Skills": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "Student-led Project": [
+            1.2,
+            0.6,
+            1.2
+        ],
+        "Language 4": [
+            0.75,
+            0.75,
+            1.5
+        ]
+    },
+    "CE 21": {
+        "Mathematics 4": [
+            1.5,
+            1.0,
+            2.5
+        ],
+        "Fluid mechanics 2": [
+            3.0
+        ],
+        "Reactivity 2": [
+            1.0,
+            2.0
+        ],
+        "Spectroscopies": [
+            1.0,
+            2.0
+        ],
+        "Experimental Chemistry": [
+            1.5,
+            1.5
+        ],
+        "Chemical Reactor": [
+            2.0
+        ],
+        "Process and Safety": [
+            2.0
+        ],
+        "Chem Eng Lab": [
+            1.0,
+            2.0
+        ],
+        "Soft Skills": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "Language 4": [
+            0.75,
+            0.75,
+            1.5
+        ]
+    },
+    "PE 21": {
+        "Mathematics 4": [
+            1.5,
+            1.0,
+            2.5
+        ],
+        "Fluid mechanics 2": [
+            3.0
+        ],
+        "Electronics": [
+            2.0
+        ],
+        "Geology Fieldwork": [
+            3.67
+        ],
+        "Field Development": [
+            4.89
+        ],
+        "Well Characterization": [
+            2.44
+        ],
+        "Soft Skills": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "Student-led Project": [
+            1.2,
+            0.6,
+            1.2
+        ],
+        "Language 4": [
+            0.75,
+            0.75,
+            1.5
+        ]
+    },
+    "GE 21": {
+        "Mathematics 4": [
+            1.5,
+            1.0,
+            2.5
+        ],
+        "Fluid mechanics 2": [
+            3.0
+        ],
+        "Electronics": [
+            2.0
+        ],
+        "Physics Lab 2": [
+            1.0,
+            1.0
+        ],
+        "Geology Fieldwork": [
+            0.6,
+            0.9,
+            1.5
+        ],
+        "Signal Processing": [
+            0.66,
+            1.33
+        ],
+        "Seismology": [
+            2.0
+        ],
+        "Well Characterization": [
+            2.0
+        ],
+        "Soft Skills": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "Student-led Project": [
+            1.2,
+            0.6,
+            1.2
+        ],
+        "Language 4": [
+            0.75,
+            0.75,
+            1.5
+        ]
+    },
+    "CS 20": {
+        "Computer Vision": [
+            1.5,
+            1.5
+        ],
+        "Data Analysis": [
+            1.5,
+            1.5
+        ],
+        "Artificial Intelligence": [
+            1.5,
+            1.5
+        ],
+        "Security": [
+            1.5,
+            1.5
+        ],
+        "Marketing": [
+            1.2,
+            1.2,
+            0.6
+        ],
+        "internship": [
+            6.0,
+            3.0,
+            6.0
+        ]
+    },
+    "CE 20": {
+        "Chemistry 6": [
+            3.0,
+            3.0
+        ],
+        "Process Engineering": [
+            3.0
+        ],
+        "Bioreactors": [
+            0.6,
+            2.4
+        ],
+        "Marketing": [
+            1.2,
+            1.2,
+            0.6
+        ],
+        "internship": [
+            6.0,
+            3.0,
+            6.0
+        ]
+    },
+    "PE 20": {
+        "Seismic acquisition": [
+            2.0
+        ],
+        "Geology": [
+            2.0
+        ],
+        "Data Acquisition": [
+            1.0
+        ],
+        "Acoustics": [
+            1.0
+        ],
+        "Rock Mechanics": [
+            2.0
+        ],
+        "Well Production": [
+            2.0
+        ],
+        "Oil and Gas Project Management": [
+            2.0
+        ],
+        "Marketing": [
+            1.2,
+            1.2,
+            0.6
+        ],
+        "internship": [
+            6.0,
+            3.0,
+            6.0
+        ]
+    },
+    "GE 20": {
+        "Student-led Project": [
+            3.0,
+            3.0
+        ],
+        "Seismic acquisition": [
+            3.0
+        ],
+        "Geology": [
+            3.0
+        ],
+        "Marketing": [
+            1.2,
+            1.2,
+            0.6
+        ],
+        "internship": [
+            6.0,
+            3.0,
+            6.0
+        ]
+    }
+}
