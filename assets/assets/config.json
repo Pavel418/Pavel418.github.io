@@ -165,6 +165,51 @@
             1.125
         ]
     },
+    "PE 22": {
+        "Mathematics 3": [
+            1.5,
+            1.0,
+            2.5
+        ],
+        "Thermodynamics 2": [
+            1.25,
+            1.25
+        ],
+        "Solid Mechanics GGG": [
+            2.5
+        ],
+        "Sedimentology": [
+            1.4
+        ],
+        "Depositional Environments": [
+            2.8
+        ],
+        "Cartography and GIS": [
+            1.4,
+            1.4
+        ],
+        "Structural Geology": [
+            2.0
+        ],
+        "Basin Analysis and Sequence Stratigraphy": [
+            2.0
+        ],
+        "Principles of geochenistry": [
+            1.0,
+            1.0
+        ],
+        "Geology for PE": [
+            2.0
+        ],
+        "Reservoir Engineering": [
+            2.0
+        ],
+        "Language 3": [
+            0.75,
+            1.125,
+            1.125
+        ]
+    },
     "GE 22": {
         "Mathematics 3": [
             1.5,
