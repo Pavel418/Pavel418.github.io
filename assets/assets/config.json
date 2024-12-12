@@ -253,6 +253,48 @@
             1.125
         ]
     },
+    "CE 22": {
+        "Mathematics 3": [
+            1.5,
+            1.0,
+            2.5
+        ],
+        "Electricity for CS and CE": [
+            2.5
+        ],
+        "Thermodynamics 2": [
+            1.25,
+            1.25
+        ],
+        "Reactivity 1": [
+            1,
+            2
+        ],
+        "Thermodynamics and kinetics": [
+            1,
+            2
+        ],
+        "Chemistry Lab 3": [
+            1,
+            2
+        ],
+        "Distillation": [
+            2
+        ],
+        "Liquid-Liquid Extraction": [
+            2
+        ],
+        "OPeration on solids": [
+            2,
+            1.5,
+            0.5
+        ],
+        "Language 3": [
+            0.75,
+            1.125,
+            1.125
+        ]
+    },
     "CS 21": {
         "Parallel Programming": [
             1.666,
