@@ -267,27 +267,26 @@
             1.25
         ],
         "Reactivity 1": [
-            1,
-            2
+            1.0,
+            2.0
         ],
         "Thermodynamics and kinetics": [
-            1,
-            2
+            1.0,
+            2.0
         ],
         "Chemistry Lab 3": [
-            1,
-            2
+            1.0,
+            2.0
         ],
         "Distillation": [
-            2
+            2.0
         ],
         "Liquid-Liquid Extraction": [
-            2
+            2.0
         ],
-        "OPeration on solids": [
-            2,
-            1.5,
-            0.5
+        "Operation on solids": [
+            2.0,
+            2.0
         ],
         "Language 3": [
             0.75,
@@ -382,3 +381,4 @@
         ]
     }
 }
+
