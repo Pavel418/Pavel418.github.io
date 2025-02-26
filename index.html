@@ -1,58 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
-
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="average_machine">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>average_machine</title>
-  <link rel="manifest" href="manifest.json">
-
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1044448520";
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eigen Visualizer - Understanding Eigenvalues & Eigenvectors</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function(engineInitializer) {
-        return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
-        return appRunner.runApp();
-      });
-    });
-  </script>
+    <header class="header">
+        <div class="container">
+            <h1>Eigen Visualizer</h1>
+            <p>Interactive Exploration of Eigenvalues and Eigenvectors</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <main class="main-content">
+            <!-- Visualization Section -->
+            <section class="visualization-section">
+                <div id="canvas-container"></div>
+            </section>
+
+            <!-- Controls Section -->
+            <section class="controls-section">
+                <div class="matrix-input">
+                    <h3>Matrix Input</h3>
+                    <div class="matrix-grid">
+                        <input type="number" id="a11" value="2" step="0.1">
+                        <input type="number" id="a12" value="0" step="0.1">
+                        <input type="number" id="a21" value="0" step="0.1">
+                        <input type="number" id="a22" value="3" step="0.1">
+                    </div>
+                    <div class="preset-buttons">
+                        <button onclick="updatePreset('identity')">Identity</button>
+                        <button onclick="updatePreset('rotation')">Rotation</button>
+                        <button onclick="updatePreset('shear')">Shear</button>
+                        <button onclick="updatePreset('scale')">Scale</button>
+                    </div>
+                </div>
+
+                <!-- Eigenvalues Display -->
+                <div class="eigenvalues-section">
+                    <h3>Eigenvalues & Eigenvectors</h3>
+                    <div id="eigen-display">
+                        <!-- JavaScript will populate this -->
+                        <p>Enter matrix values to calculate eigenvalues...</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Explanation Section -->
+        <section class="explanation">
+            <h2>Understanding Eigenvalues and Eigenvectors</h2>
+            <p>An eigenvector is a non-zero vector that only changes by a scalar factor when a linear transformation is applied to it. The corresponding scalar is called the eigenvalue.</p>
+            <p>For a matrix <em>A</em>, eigenvector <strong>v</strong> and eigenvalue λ satisfy:</p>
+            <p><strong>A<strong>v</strong> = λ<strong>v</strong></p>
+            <p>Drag vectors in the visualization to see how they transform. Eigenvectors will remain on their span during transformation.</p>
+        </section>
+    </div>
+
+    <script src="sketch.js"></script>
 </body>
 </html>
