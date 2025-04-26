@@ -1,0 +1,44 @@
+{
+    "CE 22": {
+        "Mathematics 4": [
+            1.5,
+            1.0,
+            2.5
+        ],
+        "Fluid mechanics 2": [
+            0.5,
+            1.0,
+            1.5
+        ],
+        "Reactivity 2": [
+            1.0,
+            2.0
+        ],
+        "Spectroscopies": [
+            1.0,
+            2.0
+        ],
+        "Experimental Chemistry": [
+            3.0    
+        ],
+        "Chemical Reactors": [
+            2.0
+        ],
+        "Process and Safety": [
+            2.0
+        ],
+        "Chem Eng Lab": [
+            3.0
+        ],
+        "Soft Skills": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "Language 4": [
+            0.75,
+            0.75,
+            1.5
+        ]
+    }
+}
